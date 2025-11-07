@@ -1,17 +1,26 @@
 # 🌳 Deforestation Detection using Deep Learning  
 
 > An AI-powered model that detects **deforestation** from satellite images using **ResNet-18 (Transfer Learning)**.  
-> This system helps monitor environmental changes automatically and accurately.
 
 ## 🚀 Overview  
 This project uses a **Convolutional Neural Network (CNN)** to classify satellite images as **forested** or **deforested**.  
 Built with **ResNet-18** and **transfer learning**, it achieves high accuracy even with limited training data.
 
-
 ## 🧩 Features  
 ✅ Analyzes before/after satellite images to detect deforestation  
 ✅ High accuracy classification using transfer learning  
 ✅ Simple and intuitive user interface
+
+## 🧰 Tech Stack  
+- Python  
+- PyTorch  
+- FastAPI  
+- Matplotlib  
+- Pillow  
+
+## 🧩 Prerequisites  
+- Python 3.6 or higher  
+- Git  
 
 ## ⚙️ Installation  
 
@@ -23,3 +32,18 @@ cd EcoVision
 # Install Python dependencies
 pip install torch torchvision matplotlib pillow fastapi uvicorn
 ```
+
+## 🚀 Run the Backend  
+```bash
+# Start the FastAPI server
+uvicorn main:app --reload
+```
+
+## 🌐 Frontend (Optional)  
+To run the frontend, navigate to the frontend directory and follow the instructions in the respective README.
+
+## 🔍 How It Works  
+1. The model processes satellite images using a pre-trained ResNet-18 architecture.  
+2. It classifies images into forested or deforested categories based on learned features.  
+3. Users can upload images and receive instant feedback on deforestation status.  
+
