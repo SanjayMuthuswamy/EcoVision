@@ -39,7 +39,7 @@ pip install torch torchvision matplotlib pillow fastapi uvicorn
 uvicorn main:app --reload
 ```
 
-## 🌐 Frontend (Optional)  
+## 🌐 Frontend 
 To run the frontend, navigate to the frontend directory and execute `npm run dev`.
 
 ## 🔍 How It Works  
