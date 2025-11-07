@@ -7,10 +7,6 @@
 This project uses a **Convolutional Neural Network (CNN)** to classify satellite images as **forested** or **deforested**.  
 Built with **ResNet-18** and **transfer learning**, it achieves high accuracy even with limited training data.
 
-### Applications:
-- 🛰️ Satellite image analysis for forest cover changes
-- 🌿 Environmental monitoring and conservation
-- 📊 Forest management decision support
 
 ## 🧩 Features  
 ✅ Analyzes before/after satellite images to detect deforestation  
