@@ -1,15 +1,16 @@
-# 🌳 Deforestation Detection using Deep Learning  
-
-> An AI-powered model that detects **deforestation** from images using **ResNet-18 (Transfer Learning)**.  
-> This system helps monitor environmental changes automatically and accurately.
-
 ---
 
-## 🏷️ Badges  
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-🔥_DeepLearning-red)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Colab%20%7C%20Local-yellow)
+
+---
+
+# 🌳 Deforestation Detection using Deep Learning  
+
+> An AI-powered model that detects **deforestation** from images using **ResNet-18 (Transfer Learning)**.  
+> This system helps monitor environmental changes automatically and accurately.
 
 ---
 
@@ -33,50 +34,28 @@ You can use it to:
 
 ---
 
-## 🧠 Model Architecture  
-**Base Model:** ResNet-18 pretrained on ImageNet  
-**Modified Layer:** Fully connected layer → 2 outputs  
-**Classes:** `Forested`, `Non-deforest`  
-**Framework:** PyTorch  
+## ⚙️ Installation  
 
-
+```bash
 # Clone the repository
-git clone https://github.com/your-username/deforestation-detection.git
-cd deforestation-detection
+git clone https://github.com/SanjayMuthuswamy/EcoVision.git
+cd EcoVision
 
 # Install dependencies
-pip install torch torchvision matplotlib pillow
+pip install torch torchvision matplotlib pillow fastapi uvicorn
 
+Frontend: React + Tailwind CSS
 
-# Clone the repository
-git clone https://github.com/your-username/deforestation-detection.git
-cd deforestation-detection
+Backend: FastAPI
 
-# Install dependencies
-pip install torch torchvision matplotlib pillow
+Model: ResNet-18 (Transfer Learning)
 
+Language: Python 3.10+
 
-## 🧰 Tech Stack  
+Framework: PyTorch
 
-- **Frontend:** ⚛️ **React + Tailwind CSS**  
-  → Builds a fast, modern, and responsive UI for uploading images and displaying deforestation predictions.
+Image Processing: Pillow (PIL)
 
-- **Backend:** 🚀 **FastAPI (Python)**  
-  → Handles API requests, connects to the deep learning model, and returns prediction results efficiently.
+API Testing: Postman / cURL
 
-- **Model:** 🧠 **ResNet-18 (Transfer Learning)**  
-  → Pretrained CNN architecture fine-tuned for deforestation detection using satellite imagery.
-
-- **Language:** 🐍 **Python 3.10+**  
-  → Core language used for both the backend and model development.
-
-- **Framework:** 🔥 **PyTorch**  
-  → Deep learning framework used to implement and train the ResNet-18 model.
-
-- **Image Processing:** 🖼️ **Pillow (PIL)**  
-  → Used for loading, resizing, and transforming satellite images before feeding into the model.
-
-- **API Testing:** 🧪 **Postman / cURL**  
-  → For testing API endpoints and verifying responses during backend development.
-
-
+Environment: Google Colab / Localhost
