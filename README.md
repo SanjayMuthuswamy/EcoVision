@@ -14,7 +14,7 @@ Built with **ResNet-18** and **transfer learning**, it achieves high accuracy ev
 ---
 
 ## 🧩 Features  
-✅ Detects deforestation in before/after satellite images  (uploaded by user) 
+✅ Detects deforestation in before/after satellite images (uploaded by user) .
 ✅ Utilizes transfer learning with ResNet-18  
 ✅ High accuracy, even with small datasets  
 
