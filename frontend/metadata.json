@@ -1,0 +1,6 @@
+
+{
+  "name": "EcoVision – AI Detection & Video Generation",
+  "description": "An AI-powered platform to detect deforestation by comparing before and after images, and to generate stunning videos from a single image and a text prompt using Google's Veo model.",
+  "billingUrl": "https://ai.google.dev/gemini-api/docs/billing"
+}
