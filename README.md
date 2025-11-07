@@ -1,11 +1,4 @@
----
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-🔥_DeepLearning-red)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Platform](https://img.shields.io/badge/Platform-Colab%20%7C%20Local-yellow)
-
----
 
 # 🌳 Deforestation Detection using Deep Learning  
 
