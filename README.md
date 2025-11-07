@@ -10,18 +10,13 @@ This project uses a **Convolutional Neural Network (CNN)** to classify satellite
 Built with **ResNet-18** and **transfer learning**, it achieves high accuracy even with small datasets.
 
 ### Applications:
-- 🌲 Automatic deforestation detection  
 - 🛰️ Comparison of before/after satellite images  
-- 🌍 Environmental monitoring and policy analysis  
-
 ---
 
 ## 🧩 Features  
-✅ Detects deforestation in before/after satellite images  
+✅ Detects deforestation in before/after satellite images  (uploaded by user) 
 ✅ Utilizes transfer learning with ResNet-18  
 ✅ High accuracy, even with small datasets  
-✅ Plots training accuracy per epoch  
-✅ Supports both single-image and batch predictions  
 
 ---
 
