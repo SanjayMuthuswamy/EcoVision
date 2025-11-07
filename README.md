@@ -1,54 +1,53 @@
+🌳 Deforestation Detection using Deep Learning
+An AI-powered model that detects deforestation from images using ResNet-18 (Transfer Learning).
+This system helps monitor environmental changes automatically and accurately.
 
+🚀 Overview
+This project uses a Convolutional Neural Network (CNN) to classify satellite images as forested or non-deforested.
+Built with ResNet-18 and transfer learning, it achieves high accuracy even with small datasets.
 
-# 🌳 Deforestation Detection using Deep Learning  
+Applications:
 
-> An AI-powered model that detects **deforestation** from images using **ResNet-18 (Transfer Learning)**.  
-> This system helps monitor environmental changes automatically and accurately.
+🌲 Automatic deforestation detection
 
----
+🛰️ Comparison of before/after satellite images
 
-## 🚀 Overview  
-This project trains a **Convolutional Neural Network (CNN)** to classify satellite images into **forested** or **non-deforested** areas.  
-It uses **ResNet-18** with **transfer learning**, achieving high accuracy even with limited datasets.
+🌍 Environmental monitoring and policy analysis
 
-You can use it to:
-- 🌲 Detect deforestation automatically  
-- 🛰️ Compare “before” and “after” satellite images  
-- 🌍 Support environmental monitoring or policy analysis  
+🧩 Features
+✅ Detects deforestation in before/after satellite images
 
----
+✅ Utilizes transfer learning with ResNet-18
 
-## 🧩 Features  
-✅ Detects deforestation in before/after satellite images  
-✅ Uses **transfer learning** with **ResNet-18**  
-✅ High accuracy on **small datasets**  
-✅ Plots **training accuracy per epoch**  
-✅ Supports **single-image** and **batch predictions**  
+✅ High accuracy, even with small datasets
 
----
+✅ Plots training accuracy per epoch
 
-## ⚙️ Installation  
+✅ Supports both single-image and batch predictions
 
-```bash
+⚙️ Installation
+bash
 # Clone the repository
 git clone https://github.com/SanjayMuthuswamy/EcoVision.git
 cd EcoVision
 
-# Install dependencies
+# Install Python dependencies
 pip install torch torchvision matplotlib pillow fastapi uvicorn
+🖥️ Tech Stack
+Layer	Technology
+Frontend	React, Tailwind CSS
+Backend	FastAPI
+Model	ResNet-18 (Transfer Learning)
+Language	Python 3.10+
+Framework	PyTorch
+Image Processing	Pillow (PIL)
+API Testing	Postman / cURL
+Environment	Google Colab / Localhost
+💡 Usage
+After installation:
 
-Frontend: React + Tailwind CSS
+Train, evaluate, and test the model on your dataset.
 
-Backend: FastAPI
+Use FastAPI endpoints to predict forested/non-deforested from satellite images.
 
-Model: ResNet-18 (Transfer Learning)
-
-Language: Python 3.10+
-
-Framework: PyTorch
-
-Image Processing: Pillow (PIL)
-
-API Testing: Postman / cURL
-
-Environment: Google Colab / Localhost
+Visualize training accuracy over epochs.
