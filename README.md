@@ -12,11 +12,15 @@ Utilizing **ResNet-18** and **transfer learning**, it achieves high accuracy eve
 ✅ Simple and intuitive user interface
 
 ## 🧰 Tech Stack  
-- Python  
-- PyTorch  
-- FastAPI  
-- Matplotlib  
-- Pillow  
+| Technology      | Description                          |
+|------------------|--------------------------------------|
+| Python           | Programming language used            |
+| PyTorch          | Deep learning framework              |
+| FastAPI          | Web framework for building APIs      |
+| Matplotlib       | Plotting library for visualizations  |
+| Pillow           | Image processing library             |
+| React            | JavaScript library for UI            |
+| Tailwind CSS     | Utility-first CSS framework          |
 
 ## ⚙️ Installation  
 
