@@ -1,6 +1,6 @@
 # 🌳 Deforestation Detection using Deep Learning  
 
-> 🧠 An AI-powered model that detects **deforestation** from satellite images using **ResNet-18 (Transfer Learning)**.  
+> 🧠 An AI-powered model that detects **deforestation** from images using **ResNet-18 (Transfer Learning)**.  
 > This system helps monitor environmental changes automatically and accurately.
 
 ---
