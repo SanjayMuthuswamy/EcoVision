@@ -1,11 +1,11 @@
 # 🌳 Deforestation Detection using Deep Learning  
 
-> 🧠 An AI-powered model that detects **deforestation** from images using **ResNet-18 (Transfer Learning)**.  
+> An AI-powered model that detects **deforestation** from images using **ResNet-18 (Transfer Learning)**.  
 > This system helps monitor environmental changes automatically and accurately.
 
 ---
 
-## 🏷️ Badges
+## 🏷️ Badges  
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-🔥_DeepLearning-red)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -15,21 +15,21 @@
 
 ## 🚀 Overview  
 This project trains a **Convolutional Neural Network (CNN)** to classify satellite images into **forested** or **non-deforested** areas.  
-It uses **ResNet-18** with **transfer learning**, allowing high accuracy with limited data.
+It uses **ResNet-18** with **transfer learning**, achieving high accuracy even with limited datasets.
 
 You can use it to:
-- Detect deforestation automatically  
-- Compare “before” and “after” satellite images  
-- Support environmental monitoring or policy projects  
+- 🌲 Detect deforestation automatically  
+- 🛰️ Compare “before” and “after” satellite images  
+- 🌍 Support environmental monitoring or policy analysis  
 
 ---
 
 ## 🧩 Features  
-✅ Detects deforestation in before/after images  
-✅ Uses transfer learning with ResNet-18  
-✅ High accuracy on small datasets  
-✅ Plots training accuracy per epoch  
-✅ Supports single-image and batch prediction  
+✅ Detects deforestation in before/after satellite images  
+✅ Uses **transfer learning** with **ResNet-18**  
+✅ High accuracy on **small datasets**  
+✅ Plots **training accuracy per epoch**  
+✅ Supports **single-image** and **batch predictions**  
 
 ---
 
@@ -39,38 +39,44 @@ You can use it to:
 **Classes:** `Forested`, `Non-deforest`  
 **Framework:** PyTorch  
 
-```python
-self.model = models.resnet18(pretrained=True)
-num_ftrs = self.model.fc.in_features
-self.model.fc = nn.Linear(num_ftrs, 2)
 
-
-deforestation dataset/
-│
-├── train data/
-│   ├── forested/
-│   └── non-deforest/
-│
-└── test data/
-    ├── forested/
-    └── non-deforest/
-
-
+# Clone the repository
 git clone https://github.com/your-username/deforestation-detection.git
 cd deforestation-detection
 
-
+# Install dependencies
 pip install torch torchvision matplotlib pillow
 
-🎯 Test Accuracy: 91%
+
+# Clone the repository
+git clone https://github.com/your-username/deforestation-detection.git
+cd deforestation-detection
+
+# Install dependencies
+pip install torch torchvision matplotlib pillow
 
 
-| Layer                   | Technology                           | Description                                                 |
-| ----------------------- | ------------------------------------ | ----------------------------------------------------------- |
-| **Language**            | 🐍 **Python 3.10+**                  | Core programming language                                   |
-| **Framework**           | ⚡ **PyTorch**                        | Deep learning framework used for CNN training and inference |
-| **Model**               | 🧠 **ResNet-18 (Transfer Learning)** | Pretrained CNN used for deforestation classification        |
-| **Visualization**       | 📊 **Matplotlib**                    | Used for plotting accuracy and visualizing predictions      |
-| **Image Processing**    | 🖼️ **Pillow (PIL)**                 | For loading and transforming images                         |
-| **Runtime Environment** | 💻 **Google Colab / Local Machine**  | GPU-accelerated environment for training and testing        |
-| **Optional Bac**        |                                      |                                                             |
+## 🧰 Tech Stack  
+
+- **Frontend:** ⚛️ **React + Tailwind CSS**  
+  → Builds a fast, modern, and responsive UI for uploading images and displaying deforestation predictions.
+
+- **Backend:** 🚀 **FastAPI (Python)**  
+  → Handles API requests, connects to the deep learning model, and returns prediction results efficiently.
+
+- **Model:** 🧠 **ResNet-18 (Transfer Learning)**  
+  → Pretrained CNN architecture fine-tuned for deforestation detection using satellite imagery.
+
+- **Language:** 🐍 **Python 3.10+**  
+  → Core language used for both the backend and model development.
+
+- **Framework:** 🔥 **PyTorch**  
+  → Deep learning framework used to implement and train the ResNet-18 model.
+
+- **Image Processing:** 🖼️ **Pillow (PIL)**  
+  → Used for loading, resizing, and transforming satellite images before feeding into the model.
+
+- **API Testing:** 🧪 **Postman / cURL**  
+  → For testing API endpoints and verifying responses during backend development.
+
+
