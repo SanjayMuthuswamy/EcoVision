@@ -18,10 +18,6 @@ Utilizing **ResNet-18** and **transfer learning**, it achieves high accuracy eve
 - Matplotlib  
 - Pillow  
 
-## 🧩 Prerequisites  
-- Python 3.6 or higher  
-- Git  
-
 ## ⚙️ Installation  
 
 ```bash
